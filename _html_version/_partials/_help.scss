@@ -1,0 +1,169 @@
+/*
+-------------------------
+AJUDA
+------------------------
+
+Seletores
+---------
+*/
+
+#topo .container-fluid div:first-child[class^="col-"]{ 
+  padding-right: 0;
+}
+
+#topo .container-fluid div[class^="col-"]{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+// Seletor Child
+.footer-sepadador .redes ul li:last-child{
+  margin-right: 0;
+}
+
+// Transition
+// ----------
+a{
+transition: all .3s ease-in-out;
+}
+
+// Gradiente
+// ---------
+.bg{
+background: linear-gradient(180deg, rgba(0, 2, 40, 0.83) 9.68%, rgba(0, 2, 40, 0) 88.52%);
+background-color: rgba(0, 2, 40, 0.69);
+background-blend-mode: luminosity;
+}
+
+
+// Formularios
+// -----------
+input[type="text"], input[type="email"], input[type="tel"]{
+  background: #FFFFFF;     
+}
+input[type="submit"]{
+  background: #FFFFFF;
+}
+
+
+// Caminho da pasta images dentro do css
+// -------------------------------------
+.bg{
+background-image: url('../images/ico_telefone.svg');
+}
+
+// SVG hover mudando de cor
+// ------------------------
+#ferramentas .bloco-consultoria a:hover svg path {
+  fill: #fff;
+}
+&__hero{
+  .col:first-child{
+    svg > path[fill=white]{
+      fill: $primary
+    }
+    svg > path[fill="#231F20"]{
+      fill: $white;
+    }
+  }
+}
+
+/*
+----------------------
+Gerador de Grid Layout
+----------------------
+https://grid.layoutit.com/
+https://cssgrid-generator.netlify.app/
+
+
+----------------
+Tamanho de telas
+----------------
+Site com tamanho das telas dos dispositivos atualizadas
+https://yesviz.com/devices.php
+
+
+-----------------------------
+Conversor de base 64 para SVG
+-----------------------------
+https://base64.guru/converter/encode/image/svg
+
+
+
+-----------------
+Sliders
+-----------------
+https://swiperjs.com/get-started
+
+*/
+
+
+
+
+/*
+----------------------------
+Media queries bootstrap
+----------------------------
+*/
+
+
+/*
+=====================================================
+Medium devices (tablets, 768px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+@include media-breakpoint-up(md) {
+
+}
+// 768px
+
+
+
+/*
+=====================================================
+Small devices (landscape phones, 576px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+@include media-breakpoint-up(sm) {
+
+}
+// 576px
+
+/*
+=====================================================
+Large devices (desktops, 992px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+@include media-breakpoint-up(lg) {
+
+}
+// 992px
+
+
+
+/*
+----------------------------
+Media queries personalizadas
+----------------------------
+Para resolver problemas comuns em tamanhos de telas
+*/
+
+// Controle para telas grandes full hd
+@media (min-width: 1470px) {
+
+}
+// 1470px
+
+// Controle para telas notbook de altura de 768px
+@media (max-height: 768px) {
+
+}
+
+// Media query para telas de celulares grandes
+@media screen and (max-height: 768px) and (max-width: 820px) {
+
+}

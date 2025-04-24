@@ -1,0 +1,167 @@
+*{
+  font-family: "Georama", sans-serif;
+}
+body{
+  background-color: #311e2d;
+}
+main{
+  overflow: hidden;
+  // define global background
+  background-image: url('../images/bg_default_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+// padrões iniciais
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+h2{
+  font-family: $font-family-title;
+  font-style: normal;
+  font-weight: normal;  
+}
+strong,
+b {
+  color: #2b84f0;
+  font-weight: 700;
+}
+// botões padronizados
+.btn {
+  z-index: 1;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 36px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $white;
+  text-transform: uppercase;
+  width: max-content;
+  transition: all 0.2s ease-in-out;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+  }
+}
+.btn-mobile{
+  display: block;
+  margin: 0 auto;
+  background-color: $red;
+  padding: 9px 29px;
+}
+// Padrões dos backgrounds
+.bg-top{
+  background-image: url('../images/bg_default_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-bottom{
+  background-image: url('../images/bg_default_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lead {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 56px;
+  color: $gray;
+}
+
+/* Custom checkbox */
+%controller {
+  position: relative;
+  cursor: pointer;
+  padding: 1em 0;
+
+  &::selection {
+    background: transparent;
+  }
+
+  input + span {
+    background: white;
+    content: "";
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+    padding: 2px;
+    vertical-align: middle;
+    width: 2em;
+    height: 2em;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+    &::after {
+      content: "";
+      display: block;
+      transform: scale(0);
+      transition: transform 0.2s;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    &:hover input + span {
+      box-shadow: none;
+    }
+  }
+
+  input:active + span {
+    box-shadow: none;
+  }
+
+  input:focus + span {
+    box-shadow: none;
+  }
+
+  input:checked + span::after {
+    transform: scale(1);
+  }
+
+  input {
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+  }
+}
+// Base para elemento <i></i> que serve para filtro de imagens e background
+@mixin filtro_i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.col-snap{
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.empty-block{
+  display: block;
+  width: 100%;
+  height: 380px;
+}
+
+/*
+=====================================================
+Large devices (desktops, 992px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+@include media-breakpoint-up(lg) {
+
+  .col-snap{
+    overflow-x: hidden;
+  }
+  
+}
+// 992px
+

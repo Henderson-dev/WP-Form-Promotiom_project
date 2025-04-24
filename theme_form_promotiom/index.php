@@ -1,0 +1,1 @@
+<?php header('Location: ' . SITE . '/home/formulario-promocao/'); ?>

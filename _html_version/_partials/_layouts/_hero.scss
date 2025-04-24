@@ -1,0 +1,814 @@
+.hero {
+  .col-12 {
+    height: 100%;
+  }
+
+  .bg-hero {
+    height: 230px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .info-hero {
+      h1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #89471f;
+        font-family: 'Oswald', sans-serif;
+        margin: 95px 0 0 0;
+      }
+
+      img {
+        width: 240px;
+      }
+    }
+  }
+
+  .fundo-azul {
+    background-color: #d9eaf1;
+
+    .participe {
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #89471f;
+        margin: 20px 0 30px 0;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+      }
+
+      ul {
+        li {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #89471f;
+          font-family: 'Oswald', sans-serif;
+        }
+      }
+
+      .dias {
+        background: #f1f4f5;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 15px;
+        margin: 24px auto;
+
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #8a221b;
+          font-family: 'Oswald', sans-serif;
+          word-break: keep-all;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          span {
+            padding: 0 5px;
+            color: #8a221b;
+            font-weight: 700;
+          }
+        }
+      }
+
+      h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        color: #8a221b;
+        margin-bottom: 30px;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      img {
+        margin-top: 160px;
+        position: relative;
+        z-index: 5;
+        width: 100%;
+      }
+    }
+
+    h4 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #8a221b;
+      font-family: 'Oswald', sans-serif;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.regulamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .btn-participar {
+    background: #f2a634;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 3px -5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 17px 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 auto;
+    line-height: 21px;
+    color: #8a221b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    transition: 0.3s;
+
+    &:hover {
+      background: #da962f;
+    }
+  }
+  h5 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+    color: #531313;
+    margin-top: 100px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .btn-ver-reg {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    width: 60%;
+    color: #2c232f;
+    border: 1px solid #2c232f;
+    border-radius: 10px;
+    padding: 10px 10px;
+    transition: 0.4s;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+
+    &:hover {
+      background-color: #531313;
+      color: #fff;
+    }
+  }
+}
+
+.my-home {
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px !important;
+    line-height: 30px;
+    text-align: center;
+    color: #89471f;
+    margin: 10px 0 20px !important;
+  }
+
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #89471f;
+
+    strong {
+      color: #89471f;
+      font-weight: 700;
+    }
+  }
+
+  .participe {
+    img {
+      margin-top: 220px !important;
+    }
+  }
+}
+.img-form {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+}
+
+.form-promotion {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  //   display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 70px;
+}
+
+.form-promotion {
+  .logos {
+    padding: 40px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    flex-wrap: wrap;
+    img {
+      margin-bottom: 20px;
+      width: 25%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+#form-promo-page .containerPromo {
+  //   margin: 100px 0 100px;
+  margin: 0 0 70px;
+}
+
+#form-promo-page {
+  background-color: #fff;
+  color: #2c232f;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 0px;
+  min-height: auto;
+}
+
+#form-promo-page .finish {
+  margin: 20px 0 100px !important;
+}
+
+#form-promo-page .logo {
+  width: 180px;
+  margin: 0px 0px 10px;
+}
+
+.form-promotion {
+  .redirect-regulamento {
+    .mybtns {
+      display: block;
+      background-color: #702283;
+      border: 1px solid #fff;
+      color: #fff;
+      width: 190px;
+      margin: 0 auto 20px;
+      text-align: center;
+      border-radius: 8px;
+      text-decoration: none;
+      padding: 5px;
+      transition: 0.3s;
+      min-width: fit-content;
+
+      &:hover {
+        background-color: #d38dc7;
+        color: #fff;
+      }
+    }
+    a {
+      color: #702283;
+      text-decoration: underline;
+      &:hover {
+        color: #d38dc7;
+      }
+    }
+  }
+}
+
+/*
+=====================================================
+Small devices (landscape phones, 576px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(sm) {
+}
+
+// 576px
+
+/*
+=====================================================
+Medium devices (tablets, 768px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(md) {
+  .hero {
+    .col-12 {
+      height: 100%;
+    }
+
+    .bg-hero {
+      height: 350px;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .info-hero {
+        h1 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 30px;
+          text-align: center;
+          color: #89471f;
+          font-family: 'Oswald', sans-serif;
+          margin: 10px 0 0 0;
+        }
+
+        img {
+          width: 300px;
+        }
+      }
+    }
+
+    .fundo-azul {
+      background-color: #d9eaf1;
+
+      .participe {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #89471f;
+          margin: 20px 0 30px 0;
+          font-family: 'Oswald', sans-serif;
+          text-align: center;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+          width: 60%;
+
+          li {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #89471f;
+            font-family: 'Oswald', sans-serif;
+          }
+        }
+
+        .dias {
+          background: #f1f4f5;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          width: fit-content;
+          padding: 15px 30px;
+          margin: 24px auto;
+
+          p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #8a221b;
+            font-family: 'Oswald', sans-serif;
+
+            span {
+              padding: 0 5px;
+              color: #8a221b;
+              font-weight: 700;
+            }
+          }
+        }
+
+        h3 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 140%;
+          text-align: center;
+          color: #8a221b;
+          margin-bottom: 30px;
+          font-family: 'Oswald', sans-serif;
+        }
+
+        img {
+          margin: -15px auto 0;
+          position: relative;
+          z-index: 5;
+          display: flex;
+          width: 90%;
+        }
+      }
+
+      h4 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #8a221b;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .my-home {
+    h1 {
+      margin: 10px 0 20px !important;
+    }
+
+    h2 {
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      color: #89471f;
+
+      strong {
+        color: #89471f;
+        font-weight: 700;
+      }
+    }
+
+    .participe {
+      img {
+        margin-top: 140px !important;
+      }
+    }
+  }
+
+  .regulamento {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .btn-participar {
+      background: #f2a634;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        inset 3px -5px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 17px 40px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      margin: 0 auto;
+      line-height: 21px;
+      color: #8a221b;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: 'Oswald', sans-serif;
+      transition: 0.3s;
+
+      &:hover {
+        background: #da962f;
+      }
+    }
+    h5 {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 26px;
+      color: #531313;
+      margin-top: 100px;
+      font-family: 'Oswald', sans-serif;
+    }
+
+    .btn-ver-reg {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 21px;
+      width: 40%;
+      color: #2c232f;
+      border: 1px solid #2c232f;
+      border-radius: 10px;
+      padding: 10px 20px;
+      transition: 0.4s;
+      text-decoration: none;
+      text-align: center;
+      margin-top: 20px;
+
+      &:hover {
+        background-color: #531313;
+        color: #fff;
+      }
+    }
+  }
+
+  #form-promo-page .containerPromo {
+    margin: 0 0 70px;
+  }
+
+  #form-promo-page .logo {
+    width: 300px;
+    margin: 0px 0px 20px;
+  }
+}
+
+// 768px
+
+/*
+=====================================================
+Large devices (desktops, 992px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(lg) {
+  .hero {
+    .col-12 {
+      height: 100%;
+    }
+
+    .bg-hero {
+      height: 420px;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .info-hero {
+        h1 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: center;
+          color: #89471f;
+          font-family: 'Oswald', sans-serif;
+          margin: 5px 0 0 0;
+        }
+
+        img {
+          width: auto;
+        }
+      }
+    }
+
+    .fundo-azul {
+      background-color: #d9eaf1;
+
+      .participe {
+        display: flex;
+        flex-direction: row;
+
+        h2 {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 30px;
+          color: #89471f;
+          margin: 20px 0 30px 0;
+          font-family: 'Oswald', sans-serif;
+          text-align: left;
+        }
+
+        ul {
+          width: 100%;
+
+          li {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #89471f;
+            font-family: 'Oswald', sans-serif;
+          }
+        }
+
+        .dias {
+          background: #f1f4f5;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          width: fit-content;
+          padding: 15px 30px;
+          margin: 24px auto;
+
+          p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #8a221b;
+            font-family: 'Oswald', sans-serif;
+
+            span {
+              padding: 0 5px;
+              color: #8a221b;
+              font-weight: 700;
+            }
+          }
+        }
+
+        h3 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 140%;
+          text-align: center;
+          color: #8a221b;
+          margin-bottom: 30px;
+          font-family: 'Oswald', sans-serif;
+        }
+
+        img {
+          margin: -15px auto 0;
+          position: relative;
+          z-index: 5;
+          display: flex;
+          width: 100%;
+        }
+      }
+
+      h4 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #8a221b;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .my-home {
+    h1 {
+      margin: 60px 0 20px !important;
+    }
+
+    h2 {
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      color: #89471f;
+
+      strong {
+        color: #89471f;
+        font-weight: 700;
+      }
+    }
+
+    .regulamento {
+      margin-top: 160px;
+    }
+
+    .participe {
+      img {
+        margin-top: -20px !important;
+      }
+    }
+  }
+
+  #form-promo-page .logo {
+    width: 400px;
+    margin: 0px 0px 30px;
+  }
+
+  .form-promotion {
+    .logos {
+      padding: 100px 0 0;
+
+      img {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+// 992px
+
+/*
+=====================================================
+Extra large devices (large desktops, 1200px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(xl) {
+  .hero {
+    .bg-hero {
+      height: 550px;
+
+      .info-hero {
+        h1 {
+          margin: 60px 0 0 0;
+        }
+
+        img {
+          width: auto;
+        }
+      }
+    }
+
+    .fundo-azul {
+      .participe {
+        img {
+          margin: -15px auto 0;
+          position: relative;
+          z-index: 5;
+          display: flex;
+          width: 110%;
+        }
+      }
+    }
+  }
+
+  .my-home {
+    h1 {
+      margin: 20px 0 20px !important;
+    }
+
+    h2 {
+      font-family: 'Oswald', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      color: #89471f;
+
+      strong {
+        color: #89471f;
+        font-weight: 700;
+      }
+    }
+
+    .regulamento {
+      margin-top: 10px;
+    }
+
+    .participe {
+      img {
+        margin-top: -40px !important;
+      }
+    }
+  }
+
+  #form-promo-page .containerPromo {
+    // margin: 320px 0 180px;
+    margin: 0 0 80px;
+  }
+
+  #form-promo-page .logo {
+    width: 420px;
+    margin: 0px 0px 30px;
+  }
+}
+// 1200px
+
+@media (min-width: 1400px) {
+  .hero {
+    .fundo-azul {
+      .participe {
+        img {
+          width: 130%;
+        }
+      }
+    }
+  }
+}

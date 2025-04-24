@@ -1,0 +1,140 @@
+<!-- <?php
+/*
+Template name: Promocao dia das maes 2023
+*/
+?> -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promoção dia das mães <!-- <?php wp_title(); ?> --></title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.png"
+    />
+    <!-- <?php wp_head(); ?> -->
+    <link
+      rel="stylesheet"
+      id="style-css-promotion"
+      href="assets/css/style-promocao.min.css"
+      type="text/css"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="hero">
+      <div
+        class="bg-hero"
+        style="background-image: url(/assets/imagens/div1.jpg)"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 info-hero">
+              <img
+                class="img-fluid"
+                src="/assets/imagens/Marca.png"
+                alt="logomarca"
+              />
+
+              <h1>
+                Durante o mês de maio, na compra de qualquer produto Empório São
+                João, você concorre a 4 diárias no Resort Iberostar Praia do
+                Forte, com tudo pago e direito a um acompanhante.
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fundo-azul">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 participe">
+              <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <h2>É muito simples de participar:</h2>
+
+                <ul>
+                  <li>Compre qualquer produto da MesMarca</li>
+                  <li>Cadastre o cupom fiscal e o código de barras</li>
+                  <li>Preencha o formulário com os seus dados</li>
+                  <li>Guarde a embalagem do produto</li>
+                </ul>
+
+                <div class="dias">
+                  <p>
+                    Faltam <span id="days"></span> dias para iniciar a promoção.
+                  </p>
+                </div>
+
+                <h3>
+                  A promoção começará a valer a partir do dia 1° de maio. Muito
+                  em breve nosso site estará no ar para você efetuar seu
+                  cadastro.
+                </h3>
+              </div>
+              <div class="col-12 col-lg-6 order-1 order-lg-2">
+                <img src="/assets/imagens/Group.png" alt="" />
+              </div>
+            </div>
+            <div class="col-12">
+              <h4>
+                Promoção válida de 01.05 a 31.05.23. Consulte condições de
+                participação, regulamento completo e Certificado de Autorização
+                SECAP em www.mesmarca.com/promo. Imagens ilustrativas.
+                Guarde todas as embalagens participantes.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const second = 1000
+      const minute = second * 60
+      const hour = minute * 60
+      const day = hour * 24
+
+      let count_down = new Date('01/05/2023 00:00:00').getTime()
+      let x = setInterval(() => countDown(), second)
+
+      function countDown() {
+        let now = new Date(Date.now()).getTime()
+        let diff = count_down - now
+
+        document.getElementById('days').innerText =
+          Math.floor(diff / day) < 0 ? 0 : Math.floor(diff / day)
+        document.getElementById('hours').innerText =
+          Math.floor((diff % day) / hour) < 0
+            ? 0
+            : Math.floor((diff % day) / hour)
+        document.getElementById('minutes').innerText =
+          Math.floor((diff % hour) / minute) < 0
+            ? 0
+            : Math.floor((diff % hour) / minute)
+        document.getElementById('seconds').innerText =
+          Math.floor((diff % minute) / second) < 0
+            ? 0
+            : Math.floor((diff % minute) / second)
+      }
+
+      function resetCountdown() {
+        clearInterval(x)
+        // document.form_main.date_end.value;
+        let date_end = '2023-05-02'
+        console.log(date_end)
+        count_down = new Date(`${date_end} 00:00:00`).getTime()
+        x = setInterval(() => countDown(), second)
+      }
+      resetCountdown()
+    </script>
+  </body>
+</html>

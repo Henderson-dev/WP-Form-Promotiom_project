@@ -1,0 +1,1197 @@
+.page-provisoria {
+  position: relative;
+  background-image: url(../../assets/images/mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  .newborder {
+    padding: 15px 15px 0 15px;
+  }
+
+  .obrigado {
+    h2 {
+      color: #ffed00;
+      text-align: center;
+      margin: 50px 0;
+      font-size: 25px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+  .newsmydays {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+      text-align: center;
+    }
+
+    .mynewbtns {
+      display: flex;
+      justify-content: center;
+      background-color: #ffed00;
+      text-transform: uppercase;
+      width: 160px;
+      padding: 10px;
+      border-radius: 100px;
+      text-decoration: none;
+      margin: 0 auto;
+      border: 3px solid #702283;
+      margin-top: 20px !important;
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .newbordertwo {
+    padding: 0 15px 15px 15px;
+    margin-top: -3px;
+  }
+
+  .myborder {
+    // border: 1px solid #702283;
+  }
+  .imagemfundo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .mycoluns {
+    padding: 0 15px;
+    .logo {
+      width: 100%;
+      margin: 60px auto 30px;
+      display: flex;
+    }
+
+    .infos {
+      h2 {
+        font-weight: 400;
+        font-size: 20px;
+
+        color: #702283;
+
+        font-family: Georama;
+
+        strong {
+          font-weight: 600;
+          font-size: 20px;
+
+          color: #702283;
+        }
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 25px;
+        color: #fff;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #702283;
+        margin: 30px 0 40px;
+
+        strong {
+          font-weight: 600;
+          font-size: 16px;
+          text-align: center;
+          color: #702283;
+        }
+      }
+
+      p,
+      a {
+        font-weight: 300;
+        font-size: 16px;
+        color: #702283;
+        margin: 0;
+
+        strong,
+        a {
+          font-weight: 600;
+          font-size: 16px;
+          color: #702283;
+          text-decoration: none;
+        }
+      }
+
+      .concorra {
+        display: flex;
+        margin-top: 30px;
+
+        img {
+          margin-right: 15px;
+        }
+      }
+
+      .dias {
+        background: #f1f4f5;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        padding: 15px 10px;
+        margin: 25px auto;
+
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          color: #702283;
+          word-break: keep-all;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          span {
+            padding: 0 3px;
+            color: #8a221b;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+
+  .newsletter {
+    background-color: #702283;
+    height: 100%;
+    margin-top: -5px;
+
+    .mydivv {
+      position: absolute;
+    }
+
+    .myformnews {
+      padding: 50px 0;
+
+      h2 {
+        font-family: Georama;
+
+        font-weight: 600;
+        font-size: 22px;
+        color: #f1f4f5;
+
+        margin-bottom: 30px;
+      }
+
+      .formnews {
+        display: flex;
+        flex-direction: column;
+
+        input {
+          text-align: center;
+          font-weight: 400;
+          font-size: 16px;
+          padding: 10px;
+          color: #702283;
+          margin-bottom: 20px;
+
+          &::placeholder {
+            color: #702283;
+          }
+
+          &:focus-visible {
+            outline: 0px;
+          }
+        }
+
+        button {
+          background-color: #ffed00;
+          border-radius: 50px;
+          border: 2px solid #fff;
+          font-size: 16px;
+          font-weight: 700;
+          width: 250px;
+          margin: 0 auto;
+          padding: 10px;
+          transition: 0.3s;
+
+          &:hover {
+            background-color: #702283;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .regulamento {
+    .info-reg {
+      padding: 40px 25px;
+
+      .mybtns {
+        display: block;
+        background-color: #702283;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 190px;
+        margin: 0 auto 20px;
+        text-align: center;
+        border-radius: 8px;
+        text-decoration: none;
+        padding: 5px;
+        transition: 0.3s;
+        min-width: fit-content;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #702283;
+
+        a {
+          text-decoration: none;
+          font-size: 16px;
+          font-weight: 400;
+          text-align: center;
+          color: #702283;
+        }
+      }
+    }
+  }
+}
+.vencedor {
+  .mycoluns {
+    padding: 0 10px;
+    .logo {
+      width: 98%;
+      margin: 60px auto 30px;
+      display: flex;
+    }
+    .mydays {
+      h3 strong {
+        font-weight: 700;
+        font-size: 20px;
+        color: #702283;
+        font-family: Georama;
+      }
+    }
+    .infos {
+      h2 {
+        font-weight: 700;
+        font-size: 25px;
+        color: #702283;
+        font-family: Georama;
+        margin-bottom: 20px;
+
+        strong {
+          font-weight: 700;
+          font-size: 20px;
+          color: #702283;
+        }
+      }
+
+      h3 {
+        font-weight: 400;
+        font-size: 25px;
+        color: #fff;
+      }
+
+      h4 {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #702283;
+        margin: 20px 0;
+
+        strong {
+          font-weight: 600;
+          font-size: 16px;
+          text-align: center;
+          color: #702283;
+        }
+      }
+
+      p,
+      a {
+        font-weight: 300;
+        font-size: 16px;
+        color: #702283;
+        margin: 0;
+
+        strong,
+        a {
+          font-weight: 600;
+          font-size: 16px;
+          color: #702283;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left !important;
+    color: #702283;
+    margin: 30px 0 40px;
+
+    strong {
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      color: #702283;
+    }
+  }
+}
+
+/*
+=====================================================
+Small devices (landscape phones, 576px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(sm) {
+}
+
+// 576px
+
+/*
+=====================================================
+Medium devices (tablets, 768px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(md) {
+  .page-provisoria {
+    position: relative;
+    background-image: url(../../assets/images/mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .newborder {
+      padding: 25px 25px 0 25px;
+    }
+
+    .newbordertwo {
+      padding: 0 25px 25px 25px;
+      margin-top: -3px;
+    }
+
+    .myborder {
+      //   border: 1px solid #702283;
+    }
+    .imagemfundo {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    .mycoluns {
+      .infos {
+        padding: 0 100px;
+        h2 {
+          font-weight: 400;
+          font-size: 20px;
+
+          color: #702283;
+
+          strong {
+            font-weight: 600;
+            font-size: 20px;
+
+            color: #702283;
+          }
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 30px;
+          color: #fff;
+        }
+
+        h4 {
+          font-size: 18px;
+          margin: 20px 0 40px;
+
+          strong {
+            font-size: 18px;
+          }
+        }
+
+        p,
+        a {
+          font-weight: 300;
+          font-size: 18px;
+          color: #702283;
+          margin: 0;
+
+          strong,
+          a {
+            font-weight: 600;
+            font-size: 18px;
+            color: #702283;
+            text-decoration: none;
+          }
+        }
+
+        .concorra {
+          display: flex;
+          margin: 30px auto 0;
+          width: 350px;
+
+          img {
+            margin-right: 15px;
+          }
+        }
+
+        .dias {
+          background: #f1f4f5;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          padding: 15px 10px;
+          margin: 25px auto;
+
+          p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #702283;
+            word-break: keep-all;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+              padding: 0 3px;
+              color: #8a221b;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    .newsletter {
+      background-color: #702283;
+      height: 100%;
+      margin-top: -5px;
+
+      .mydivv {
+        position: absolute;
+      }
+
+      .myformnews {
+        padding: 50px 0;
+        display: flex;
+
+        h2 {
+          font-weight: 600;
+          font-size: 22px;
+          color: #f1f4f5;
+          text-align: left;
+          margin-bottom: 30px;
+        }
+
+        .formnews {
+          display: flex;
+          flex-direction: column;
+
+          input {
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 10px;
+            color: #702283;
+            margin-bottom: 20px;
+
+            &::placeholder {
+              color: #702283;
+            }
+
+            &:focus-visible {
+              outline: 0px;
+            }
+          }
+
+          button {
+            background-color: #ffed00;
+            border-radius: 50px;
+            border: 2px solid #fff;
+            font-size: 16px;
+            font-weight: 700;
+            width: 250px;
+            margin: 0 auto;
+            padding: 10px;
+          }
+        }
+      }
+    }
+
+    .regulamento {
+      .info-reg {
+        padding: 40px 100px;
+
+        .mybtns {
+          display: block;
+          background-color: #702283;
+          border: 1px solid #fff;
+          color: #fff;
+          width: 190px;
+          margin: 0 auto 20px;
+          text-align: center;
+          border-radius: 8px;
+          text-decoration: none;
+          padding: 5px;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          text-align: center;
+          color: #702283;
+
+          a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            color: #702283;
+          }
+        }
+      }
+    }
+  }
+
+  .vencedor {
+    .mycoluns {
+      padding: 0 10px;
+      .logo {
+        width: 70%;
+        margin: 60px auto 30px;
+        display: flex;
+      }
+      .mydays {
+        h3 strong {
+          font-weight: 700;
+          font-size: 20px;
+          color: #702283;
+          font-family: Georama;
+        }
+      }
+      .infos {
+        h2 {
+          font-weight: 700;
+          font-size: 35px;
+          color: #702283;
+          font-family: Georama;
+          margin-bottom: 20px;
+
+          strong {
+            font-weight: 700;
+            font-size: 35px;
+            color: #702283;
+          }
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 25px;
+          color: #fff;
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 16px;
+          text-align: center;
+          color: #702283;
+          margin: 20px 0;
+
+          strong {
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            color: #702283;
+          }
+        }
+
+        p,
+        a {
+          font-weight: 300;
+          font-size: 16px;
+          color: #702283;
+          margin: 0;
+
+          strong,
+          a {
+            font-weight: 600;
+            font-size: 16px;
+            color: #702283;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    h4 {
+      font-weight: 400;
+      font-size: 16px;
+      text-align: left !important;
+      color: #702283;
+      margin: 30px 0 40px;
+
+      strong {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #702283;
+      }
+    }
+  }
+}
+
+// 768px
+
+/*
+=====================================================
+Large devices (desktops, 992px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(lg) {
+  .page-provisoria {
+    // background-image: url(../../assets/images/wide.svg);
+
+    .newborder {
+      padding: 35px 35px 0 35px;
+    }
+
+    .newbordertwo {
+      padding: 0 35px 35px 35px;
+      margin-top: -3px;
+    }
+
+    .myborder {
+      //   border: 1px solid #702283;
+    }
+
+    .mydays {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .imagemfundo {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .line {
+      height: 430px;
+      width: 1px;
+      background-color: #702283;
+    }
+
+    .mycoluns {
+      .logo {
+        margin: 120px auto 60px;
+      }
+      .infos {
+        padding: 0 20px 50px;
+        display: flex;
+        justify-content: space-around;
+
+        h2 {
+          font-size: 27px;
+
+          strong {
+            font-size: 27px;
+          }
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 30px;
+          color: #fff;
+        }
+
+        h4 {
+          margin: 40px 0 20px;
+        }
+
+        p,
+        a {
+          font-weight: 300;
+          font-size: 18px;
+          color: #702283;
+          margin: 0;
+
+          strong,
+          a {
+            font-weight: 600;
+            font-size: 18px;
+            color: #702283;
+            text-decoration: none;
+          }
+        }
+
+        .concorra {
+          display: flex;
+          margin: 0px auto 20px;
+          width: 350px;
+
+          img {
+            margin-right: 15px;
+          }
+        }
+
+        .dias {
+          background: #f1f4f5;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          padding: 15px 10px;
+          margin: 25px 0;
+
+          p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #702283;
+            word-break: keep-all;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+              padding: 0 3px;
+              color: #8a221b;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    .newsletter {
+      background-color: #702283;
+      height: 100%;
+      margin-top: -5px;
+
+      .mydivv {
+        position: absolute;
+      }
+
+      .myformnews {
+        padding: 50px 0;
+        display: flex;
+
+        h2 {
+          font-weight: 600;
+          font-size: 22px;
+          color: #f1f4f5;
+          text-align: left;
+          margin-bottom: 30px;
+        }
+
+        .formnews {
+          display: flex;
+          flex-direction: column;
+
+          input {
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 10px;
+            color: #702283;
+            margin-bottom: 20px;
+
+            &::placeholder {
+              color: #702283;
+            }
+
+            &:focus-visible {
+              outline: 0px;
+            }
+          }
+
+          button {
+            background-color: #ffed00;
+            border-radius: 50px;
+            border: 2px solid #fff;
+            font-size: 16px;
+            font-weight: 700;
+            width: 250px;
+            margin: 0 auto;
+            padding: 10px;
+          }
+        }
+      }
+    }
+
+    .regulamento {
+      .info-reg {
+        padding: 40px 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .mybtns {
+          display: block;
+          background-color: #702283;
+          border: 1px solid #fff;
+          color: #fff;
+          width: 210px;
+          margin: 0 0 20px;
+          text-align: center;
+          border-radius: 8px;
+          text-decoration: none;
+          padding: 5px;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          text-align: left;
+          color: #702283;
+
+          a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            color: #702283;
+          }
+        }
+      }
+    }
+  }
+
+  .vencedor {
+    .mycoluns {
+      padding: 0 10px;
+      .logo {
+        width: 60% !important;
+        margin: 60px auto 30px;
+        display: flex;
+      }
+      .mydays {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        h4 {
+          margin-bottom: 60px !important;
+        }
+
+        h2 {
+          margin-bottom: 50px !important;
+        }
+
+        h3 strong {
+          font-weight: 700;
+          font-size: 20px;
+          color: #702283;
+          font-family: Georama;
+        }
+      }
+      .infos {
+        h2 {
+          font-weight: 700;
+          font-size: 40px !important;
+          color: #702283;
+          font-family: Georama;
+          margin-bottom: 20px;
+
+          strong {
+            font-weight: 700;
+            font-size: 40px !important;
+            color: #702283;
+          }
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 25px;
+          color: #fff;
+        }
+
+        h4 {
+          font-weight: 400;
+          font-size: 16px;
+          text-align: center;
+          color: #702283;
+          margin: 0px 0 20px;
+
+          strong {
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            color: #702283;
+          }
+        }
+
+        p,
+        a {
+          font-weight: 300;
+          font-size: 16px;
+          color: #702283;
+          margin: 0;
+
+          strong,
+          a {
+            font-weight: 600;
+            font-size: 16px;
+            color: #702283;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .info-reg {
+      padding: 40px 40px !important;
+      display: flex;
+      align-items: center;
+    }
+    h4 {
+      font-weight: 400;
+      font-size: 16px;
+      text-align: left !important;
+      color: #702283;
+      margin: 30px 0 40px;
+
+      strong {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #702283;
+      }
+    }
+  }
+}
+// 1200px
+
+@include media-breakpoint-up(xl) {
+  .page-provisoria {
+    background-image: url(../../assets/images/wide.svg);
+
+    .newborder {
+      padding: 35px 35px 0 35px;
+    }
+
+    .newbordertwo {
+      padding: 0 35px 35px 35px;
+      margin-top: -3px;
+    }
+
+    .myborder {
+      //   border: 1px solid #702283;
+    }
+
+    .mydays {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .imagemfundo {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    .line {
+      height: 410px;
+    }
+
+    .mycoluns {
+      .infos {
+        padding: 0 20px 60px;
+        justify-content: space-between;
+
+        h2 {
+          font-size: 27px;
+
+          strong {
+            font-size: 27px;
+          }
+        }
+
+        h3 {
+          font-weight: 400;
+          font-size: 30px;
+          color: #fff;
+        }
+
+        h4 {
+          margin: 40px 0 20px;
+        }
+
+        p,
+        a {
+          font-weight: 300;
+          font-size: 18px;
+          color: #702283;
+          margin: 0;
+
+          strong,
+          a {
+            font-weight: 600;
+            font-size: 18px;
+            color: #702283;
+            text-decoration: none;
+          }
+        }
+
+        .concorra {
+          display: flex;
+          margin: 0px auto 20px;
+          width: 350px;
+
+          img {
+            margin-right: 15px;
+          }
+        }
+
+        .dias {
+          background: #f1f4f5;
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 5px;
+          padding: 15px 10px;
+          margin: 25px 0;
+
+          p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #702283;
+            word-break: keep-all;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span {
+              padding: 0 3px;
+              color: #8a221b;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    .newsletter {
+      background-color: #702283;
+      height: 100%;
+      margin-top: -5px;
+
+      .mydivv {
+        position: absolute;
+      }
+
+      .myformnews {
+        padding: 70px 0;
+        display: flex;
+
+        h2 {
+          font-weight: 600;
+          font-size: 22px;
+          color: #f1f4f5;
+          text-align: left;
+          margin-bottom: 0px;
+        }
+
+        .formnews {
+          display: flex;
+          flex-direction: row;
+
+          input {
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 10px;
+            color: #702283;
+            margin-bottom: 0px;
+            width: 100%;
+
+            &::placeholder {
+              color: #702283;
+            }
+
+            &:focus-visible {
+              outline: 0px;
+            }
+          }
+
+          button {
+            background-color: #ffed00;
+            border-radius: 50px;
+            border: 2px solid #fff;
+            font-size: 16px;
+            font-weight: 700;
+            width: 100%;
+            margin: 0 0 0 10px;
+            padding: 10px;
+          }
+        }
+      }
+    }
+
+    .regulamento {
+      .info-reg {
+        padding: 40px 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        .mybtns {
+          display: block;
+          background-color: #702283;
+          border: 1px solid #fff;
+          color: #fff;
+          width: 375px;
+          margin: 0 20px 0 0;
+          text-align: center;
+          border-radius: 8px;
+          text-decoration: none;
+          padding: 5px;
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 400;
+          text-align: left;
+          color: #702283;
+
+          a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            color: #702283;
+          }
+        }
+      }
+    }
+  }
+}

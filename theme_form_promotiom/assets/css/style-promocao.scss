@@ -1,0 +1,104 @@
+/*
+//-------------------------------------------------------------------
+@File: Default Styles
+
+@Author: Henderson Torres
+Author E-mail: teconet.arte@gmail.com
+
+@Author: Marcelo Fiuza
+Author E-mail: contato@marcelofq.com.br
+
+//-------------------------------------------------------------------
+*/
+
+/*
+-------------------------
+AJUDA
+------------------------
+
+Seletores
+---------
+
+#topo .container-fluid div:first-child[class^="col-"]{ }
+
+#topo .container-fluid div[class^="col-"]{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+
+Seletor Child
+.footer-sepadador .redes ul li:last-child{
+  margin-right: 0;
+}
+
+Transition
+----------
+transition: all .3s ease-in-out;
+
+
+Gradiente
+---------
+background: linear-gradient(180deg, rgba(0, 2, 40, 0.83) 9.68%, rgba(0, 2, 40, 0) 88.52%);
+background-color: rgba(0, 2, 40, 0.69);
+background-blend-mode: luminosity;
+
+
+Formularios
+-----------
+input[type="text"]
+input[type="email"]
+input[type="tel"]
+input[type="submit"]
+
+
+Caminho da pasta images
+-----------------------
+background-image: url('../images/ico_telefone.svg');
+
+
+SVG hover mudando de cor
+------------------------
+#ferramentas .bloco-consultoria a:hover svg path {
+  fill: #fff;
+}
+
+Técnica para calcular o Rem das fontes
+--------------------------------------
+html{
+font-size=62.5%;
+box-sizing: border-box;
+}
+
+1rem = 10px
+1.7rem = 17px
+
+
+Tamanho de telas
+----------------
+Site com tamanho das telas dos dispositivos atualizadas
+https://yesviz.com/devices.php
+
+
+
+Conversor de base64 data-uri
+----------------------------
+https://base64.guru/converter/encode/image/svg
+
+*/
+
+// // Variavéis de configuração do bootstrap (tem que ser antes do bootstrap)
+@import '../../_partials/variables';
+
+// // Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// // Hamburges Icon Menu
+// @import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
+// // Globals
+@import '../../_partials/globals';
+
+// Layouts
+@import '../../_partials/_layouts/promo-page';
+@import '../../_partials/_layouts/hero';

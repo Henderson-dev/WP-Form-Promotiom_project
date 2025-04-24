@@ -1,0 +1,624 @@
+// estiliza formulário da pagina de promoção feita no elementor
+#form-promo {
+  .elementor-widget-container {
+    
+    form {
+      p {
+        label {
+          color: #fff;
+          display: block;
+          text-align: center;
+        }
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"] {
+        margin-bottom: 1px;
+        background: #84372a;
+        border: 1px solid #fff;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        color: #fff;
+        padding: 10px 16px 12px;
+        width: 100%;
+        &:focus-visible {
+          outline: 0;
+        }
+      }
+      input[type="submit"] {
+        display: block;
+        width: 140px;
+        height: 60px;
+        margin: 0 auto;
+        background-color: #f6a153;
+        border-radius: 5px;
+        -webkit-box-shadow: -11px 37px 34px 0px rgba(0, 0, 0, 0.22);
+        box-shadow: -11px 37px 34px 0px rgba(0, 0, 0, 0.22);
+        color: #84372a;
+        border: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+      }
+
+      .wpcf7-form-control-wrap {
+        margin-top: 5px;
+        display: block;
+        margin-bottom: 5px;
+      }
+      .wpcf7-not-valid-tip {
+        background-color: #e02200;
+        color: #fff;
+        padding: 2px 10px;
+        font-size: 12px;
+        width: fit-content;
+      }
+      .wpcf7-response-output {
+        background-color: #e59100;
+        text-align: center;
+        color: #fff;
+        padding: 5px 20px;
+      }
+      .form.sent.wpcf7-response-output {
+        background-color: #46b450;
+      }
+    }
+  }
+}
+
+// Fernando, colocar os estilos dentro dessa classe #form-promo-page é uma section que engloba o form
+// Style para pagina do formulario promocao
+@mixin input-default($pad: 12px 12px, $mb: 13px, $bg: $blue) {
+  border: 1px solid $primary;
+  border-radius: 0;
+  box-sizing: border-box;
+  font-family: $font-family-default;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: $primary;
+  min-width: initial;
+  width: 100%;
+  background: $white;
+  min-width: initial;
+  width: 100%;
+  padding: $pad;
+  margin-bottom: $mb;
+  height: 40px;
+}
+
+#form-promo-page {
+  background-color: #84372a;
+  color: #2c232f;
+  background-image: none;
+  font-family: $font-family-default;
+  font-size: 16px;
+  padding: 70px 0;
+  min-height: 100vh;
+  h1 {
+    font-weight: 800;
+    font-size: 32px;
+    color: #2c232f;
+    margin-bottom: 30px;
+  }
+  p {
+    margin-bottom: 20px;
+    color: #2c232f;
+  }
+  .logo {
+    width: 122px;
+    margin: 46px 0px 48px;
+  }
+
+  .containerPromo {
+    padding: 48px 15px 42px;
+    background-color: #fbf3ee;
+    border-radius: 30px;
+
+    .newnumeros {
+      h2 {
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        color: #2c232f;
+        line-height: 38px;
+        strong {
+          color: #2c232f;
+        }
+      }
+      div {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 30px 0;
+        span {
+          color: #000;
+          font-weight: 700;
+          font-size: 30px;
+          margin: 5px 0;
+        }
+      }
+      p {
+        font-size: 16px;
+        padding: 0 15px;
+        text-align: center;
+        width: 100%;
+        color: #2c232f;
+      }
+    }
+
+    label {
+      color: #2c232f;
+      display: block;
+      text-align: left;
+      font-weight: 700;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"] {
+      line-height: 21px;
+      margin-bottom: 8px;
+      background: transparent;
+      border: 1px solid #2c232f;
+      border-radius: 10px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 32px;
+      letter-spacing: 0.02em;
+      height: 45px;
+      color: #2c232f;
+      padding: 12.5px 16px 11.5px;
+      width: 100%;
+      margin-bottom: 10px;
+      &:focus-visible {
+        outline: 0;
+      }
+    }
+
+    input[type="submit"] {
+      display: block;
+      width: 124px;
+      height: 45px;
+      // margin: 0 auto;
+      background-color: #FFED00;
+      border-radius: 100px;
+      // -webkit-box-shadow: -11px 37px 34px 0px rgba(0, 0, 0, 0.22);
+      // box-shadow: -11px 37px 34px 0px rgba(0, 0, 0, 0.22);
+      color: #2c232f;
+      border: 3px solid #2c232f;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+    }
+    input[type="submit"]:hover {
+      color: #FFED00;
+      background-color: #2c232f;
+    }
+
+    // // Campo Select
+    // div.box-select {
+    //   @include input-default($pad: 0);
+    //   position: relative;
+    //   display: inline-block;
+    // }
+
+    // div.box-select select {
+    //   border: none;
+    //   width: 100%;
+    //   min-height: 40px;
+    //   padding: 0;
+    //   z-index: 2;
+    //   background: transparent;
+    //   color: $primary;
+    //   position: relative;
+    //   -moz-appearance: none;
+    //   -webkit-appearance: none;
+    //   padding: 10px 12px 0px 12px;
+    //   margin-bottom: 0;
+    //   outline: none;
+    //   cursor: pointer;
+    //   option {
+    //     color: $blue;
+    //   }
+    //   option {
+    //     background: #fff;
+    //     color: $primary !important;
+    //     font-family: $font-family-default;
+    //   }
+    // }
+
+    .selectCustom {
+      select {
+        line-height: 21px;
+        background: transparent;
+        margin-bottom: 8px;
+        background: transparent;
+        border: 1px solid #2c232f;
+        border-radius: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.02em;
+        height: 45px;
+        color: #2c232f;
+        padding: 0px 16px 0px;
+        width: 100%;
+        margin-bottom: 10px;
+        -webkit-appearance: none;
+        cursor: pointer;
+
+        &:focus-visible {
+          outline: 0;
+        }
+      }
+      select:required:invalid {
+        color: gray;
+      }
+    }
+    div.box-select::after {
+      content: "";
+      width: 100%;
+      height: 40px;
+      position: absolute;
+      right: 30px;
+      top: 35px;
+      background-repeat: no-repeat;
+      background-image: url("../images/seta_select.svg");
+      background-position: right center;
+      z-index: 1;
+      background-color: transparent;
+      pointer-events: none;
+    }
+
+    .uploadAnexo {
+      position: relative;
+      input[type="file"]::file-selector-button {
+        display: none;
+      }
+      input[type="file"] {
+        padding: 11px 0px 11px 35px;
+        width: 100%;
+        background: transparent;
+        height: 45px;
+        left: 450px;
+        top: 952.11px;
+        border: 1px solid #2c232f;
+        box-sizing: border-box;
+        border-radius: 10px;
+      }
+      input[type="file"]:before {
+        content: " ";
+        background-image: url("../images/clips.svg");
+        width: 16px;
+        height: 15px;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        // display: inline-block;
+        // margin-right: 5px;
+        // padding-top: 0px;
+        position: absolute;
+        top: 15px;
+        left: 12px;
+      }
+      label {
+        width: 124px;
+        height: 45px;
+        background: #FFED00;
+        border-radius: 100px;
+        text-align: center;
+        padding: 8px 0px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        border: 3px solid #2c232f;
+        transition: all 0.2s ease-in-out;
+      }
+      label:hover {
+        color: #FFED00;
+        background: #2c232f;
+        cursor: pointer;
+      }
+    }
+
+    // Radio buttom
+    input[type="radio"] {
+      display: none;
+      /* Esconde os inputs */
+    }
+    input[type="radio"] + p:before {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 1px;
+      left: 0;
+      border-radius: 50px;
+      background: #fff;
+      border: none;
+      box-sizing: border-box;
+      margin-left: 15px;
+    }
+    input[type="radio"]:checked + p:before {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      left: 0;
+      top: 1px;
+      background: #FFF1DF;
+      border: 4px solid $blue;
+      box-shadow: 0 0 3px #fff;
+    }
+    // -- radio buttons
+
+    // Check buttons
+    input[type="checkbox"] {
+      display: none; /* Esconde os inputs */
+    }
+    input[type="checkbox"] + p:before {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 1px;
+      left: 6px;
+      background: $white;
+      border: 2px solid #2c232f;
+      box-sizing: border-box;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    input[type="checkbox"]:checked + p:before {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 1px;
+      left: 6px;
+      background: #2c232f;
+      border: 5px solid #f2a634;
+      box-shadow: 0 0 3px #fff;
+    }
+
+    .checkcustom {
+      margin-top: 25px;
+    }
+    .check-form {
+      p {
+        margin-left: 37px;
+        font-weight: 400;
+        a {
+          color: #2c232f;
+          font-weight: 700;
+          text-decoration: underline;
+          text-underline-offset: 4px;
+          text-decoration-thickness: 2px;
+        }
+        a:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    // -- Check buttons
+
+    .separador1 {
+      width: 100%;
+      height: 1px;
+      background-color: #e6ded2;
+      margin: 50px 0px 65px;
+    }
+    .separador2 {
+      width: 100%;
+      height: 1px;
+      background-color: #e6ded2;
+      margin: 100px 0px 60px;
+    }
+
+    .divider-produtos {
+      margin-bottom: 20px;
+      p {
+        margin-bottom: 30px;
+      }
+    }
+    .passo3-produtos {
+      margin-bottom: 20px;
+    }
+  }
+
+  // form
+
+  //SEGUNDA PAGINA
+
+  .carregamento {
+    margin-bottom: 45px;
+    animation-name: spin;
+    animation-duration: 2500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+
+  .textoCarregamento {
+    h2 {
+      font-family: $font-family-default;
+      text-align: center;
+      font-size: 32px;
+      line-height: 38px;
+      margin-bottom: 60px;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+  .setinha {
+    margin-bottom: -60px;
+  }
+  .setinha:hover {
+    cursor: pointer;
+  }
+
+  //TERCEIRA PAGINA
+
+  .promoResultadoTexto {
+    font-family: $font-family-default;
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 60px;
+    p {
+      margin: 0px;
+    }
+    h2 {
+      font-family: $font-family-default;
+      font-weight: bold;
+    }
+  }
+  .promoResultadoNumero {
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 55px;
+  }
+  .promoResultadoTexto2 {
+    text-align: center;
+    font-size: 16px;
+  }
+}
+
+
+#mensagem {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffffd4;
+  z-index: 10;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #f2a634;
+  flex-direction: column;
+}
+
+#mensagem img {
+  margin: 20px;
+  width: 35px;
+}
+
+/*
+=====================================================
+Small devices (landscape phones, 576px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(sm) {
+  #form-promo-page {
+    .containerPromo {
+      padding: 68px 75px 62px;
+    }
+  }
+}
+
+// 576px
+
+/*
+=====================================================
+Medium devices (tablets, 768px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(md) {
+  #form-promo-page {
+    .containerPromo {
+      padding: 68px 85px 62px;
+      .newnumeros {
+        h2 {
+          font-size: 30px;
+        }
+        div {
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+        }
+      }
+      .uploadAnexo {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        input[type="file"] {
+          width: 65%;
+        }
+        input[type="file"]:before {
+          top: 35px;
+        }
+      }
+    }
+  }
+}
+
+// 768px
+
+/*
+=====================================================
+Large devices (desktops, 992px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(lg) {
+  #form-promo-page {
+    .containerPromo {
+      padding: 68px 95px 62px;
+    }
+  }
+}
+
+// 992px
+
+/*
+=====================================================
+Extra large devices (large desktops, 1200px and up)
+Read more: https://getbootstrap.com/docs/4.6/layout/overview/#responsive-breakpoints
+=====================================================
+*/
+
+@include media-breakpoint-up(xl) {
+  #form-promo-page {
+    .containerPromo {
+      .uploadAnexo {
+        input[type="file"] {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+// 1200px

@@ -1,0 +1,35 @@
+$font-family-default: 'Georama', sans-serif; // pesos 300 Italic e Regular, Regular 400, Semi-bold 600
+$font-family-title: 'Georama', sans-serif; // pesos Regular / italic 400
+
+//Backgrounds
+$bg-primary: #5A1D18;
+
+$grid-gutter-width: 30px;
+
+// Cores
+$preto: #5D5D5D;
+$white: #ffffff;
+$primary: #B28E59;
+$i18n-bg-color: #efe1b4;
+$i18n-border-color: #e7d28f;
+$secondary: #DBCBB2;
+$dark: #5d5d5d;
+$gray: #5c5c5c;
+$link-color: $primary;
+$btn-inverse-hover: #5A1D18;
+$azul_escuro: #1796d4;
+$hover-border-menu: #e1251b;
+$red: #8D2D26;
+
+// Customizando o modal
+$modal-backdrop-bg: $primary;
+$modal-backdrop-opacity: 1;
+
+//Custom hamburger icon
+$hamburger-layer-width: 32px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 9.5px;
+$hamburger-layer-color: $white;
+$hamburger-layer-border-radius: 0;
+$hamburger-hover-opacity: 1;
+$hamburger-types: (spring);

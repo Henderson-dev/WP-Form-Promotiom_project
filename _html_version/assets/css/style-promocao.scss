@@ -1,0 +1,29 @@
+/*
+//-------------------------------------------------------------------
+@File: Default Styles
+
+@Author: Henderson Torres
+Author E-mail: teconet.arte@gmail.com
+
+@Author: Marcelo Fiuza
+Author E-mail: contato@marcelofq.com.br
+
+//-------------------------------------------------------------------
+*/
+
+
+// // Variavéis de configuração do bootstrap (tem que ser antes do bootstrap)
+@import '../../_partials/variables';
+
+// // Bootstrap
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// // Hamburges Icon Menu
+// @import "../../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+
+// // Globals
+@import '../../_partials/globals';
+
+// Layouts
+@import '../../_partials/_layouts/promo-page';
+@import '../../_partials/_layouts/hero';
